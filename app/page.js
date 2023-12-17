@@ -1,10 +1,9 @@
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to NextJS Course!</h1>
-      <p><Link href="/about">About Us!</Link></p>
+      <h1 style={{ color: "white", textAlign: "center" }}>
+        Time to get started!
+      </h1>
     </main>
-  )
+  );
 }
